@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'templateDriven';
+
+  public username;
+  public password;
+
+  onSubmit() {
+    console.log(this.username);
+    console.log(this.password);
+  }
 }
